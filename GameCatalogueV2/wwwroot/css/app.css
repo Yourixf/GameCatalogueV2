@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusables
+
+////////////////////////*/
+
+/* -------------------- 1. Global Styles ---------------------- */
+
+:root {
+    --main-stroke-color: #FF0000;
+
+    --main-background-color-dark: #181111;
+    --secondary-background-color-dark: #692727;
+    --main-background-color-light: #FFF3F3;
+    --secondary-background-color-light: #FF8080;
+
+    --navbar-gamecatalogue-dark:#D9D9D9;
+    --navbar-gamecatalogue-light:#000000;
+    --navbar-secondary: #d9d9d9;
+    --navbar-background-dark: #000000;
+    --navbar-background-light: #EAEAEA;
+    --navbar-search-text: #000000;
+    --navbar-hover: #C1C1C1FF;
+
+    --login-main-background-color-dark: #351313;
+    --login-main-background-color-light: #EAEAEA;
+    --login-text-color-dark: #FFFFFF;
+    --login-text-color-light: #000000;
+
+    --profile-background-dark: #351313;
+    --profile-background-light: #EAEAEA;
+    --profile-text-dark: #FFFFFF;
+    --profile-text-light: #000000;
+    --profile-picture-background-dark: #692727;
+    --profile-picture-background-light: #D9D9D9;
+
+    --button-main-color: #D9D9D9;
+    --button-text-color-dark: #FFFFFF;
+    --button-text-color-light: #000000;
+    --button-hover-dark: #c1c1c1;
+
+    --game-card-main-dark: #351313;
+    --game-card-main-light: #EAEAEA;
+    --game-card-text-dark: #FFFFFF;
+    --game-card-text-light: #000000;
+
+    --recommended-text-description: #4B4B4B;
+    --recommended-pagination-other-game: #AEAEAE ;
+    --recommended-pagination-selected-game: #4B4B4B ;
+
+    --pagination-main-background-dark: #351313;
+    --pagination-main-background-light: #EAEAEA;
+    --pagination-secondary-background-dark: #692727;
+    --pagination-secondary-background-light: #BA7878;
+    --pagination-selected-page-dark: #281212;
+    --pagination-selected-page-light: #FFFFFF;
+    --pagination-text-dark: #FFFFFF;
+    --pagination-text-light: #000000;
+
+    --filter-sort-background-color-dark: #692727;
+    --filter-sort-background-color-light: #EAEAEA;
+    --filter-sort-text-color-dark: #FFFFFF;
+    --filter-sort-text-color-light: #000000;
+
+    --loading-text-color-dark: orange;
+    --error-text-color-dark: red;
+    --succes-text-color-dark: green;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* ---------------------- 2. Typography ----------------------- */
+
+
+body{
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+/* ----------------------- 3. Layout ------------------------- */
+/* --------------- 3.1 Reusables ----------------- */
+
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    padding: 10px;
+
+
+    @media (max-width: 758px) {
+        min-height: calc(100vh - 58px);
+    }
+}
+
+.page-container.dark-mode {
+    background: linear-gradient(45deg, var(--main-background-color-dark) 0%, var(--secondary-background-color-dark) 100%);
+
+}
+
+.page-container.light-mode {
+    background: linear-gradient(45deg, var(--main-background-color-light) 0%, var(--secondary-background-color-light) 100%);
+
+}
+
+.page-inner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    margin: 40px;
+
+}
+
+.dark-mode ::-webkit-scrollbar-track  {
+    background: var(--secondary-background-color-dark);
+
+}
+
+.light-mode ::-webkit-scrollbar-track  {
+    background: var(--secondary-background-color-light);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.status-message-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    min-width: fit-content;
+}
+
+body:has(.status-loading) {
+    cursor: wait;
+}
+
+.section-game-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    gap: 10px;
+}
+
+@media all and (max-width: 1330px) {
+    .section-game-header {
+        flex-direction: column;
+    }
+}
+

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GameCatalogueV2.props" />
+</Project>

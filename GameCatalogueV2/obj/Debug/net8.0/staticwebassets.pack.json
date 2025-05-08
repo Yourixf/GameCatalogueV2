@@ -1,0 +1,169 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\obj\\Debug\\net8.0\\compressed\\wuxjnm82to.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GameCatalogueV2.styles.css",
+      "PackagePath": "staticwebassets\\GameCatalogueV2.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\navbar\\favorite.png",
+      "PackagePath": "staticwebassets\\assets\\navbar\\favorite.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\navbar\\home.png",
+      "PackagePath": "staticwebassets\\assets\\navbar\\home.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\navbar\\joystick.png",
+      "PackagePath": "staticwebassets\\assets\\navbar\\joystick.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\navbar\\lightmode.png",
+      "PackagePath": "staticwebassets\\assets\\navbar\\lightmode.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\navbar\\recommended.png",
+      "PackagePath": "staticwebassets\\assets\\navbar\\recommended.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\navbar\\search.png",
+      "PackagePath": "staticwebassets\\assets\\navbar\\search.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\platforms\\android.png",
+      "PackagePath": "staticwebassets\\assets\\platforms\\android.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\platforms\\apple.png",
+      "PackagePath": "staticwebassets\\assets\\platforms\\apple.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\platforms\\nitendoswitch.png",
+      "PackagePath": "staticwebassets\\assets\\platforms\\nitendoswitch.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\platforms\\playstation.png",
+      "PackagePath": "staticwebassets\\assets\\platforms\\playstation.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\platforms\\web.png",
+      "PackagePath": "staticwebassets\\assets\\platforms\\web.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\platforms\\windows.png",
+      "PackagePath": "staticwebassets\\assets\\platforms\\windows.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\platforms\\xbox.png",
+      "PackagePath": "staticwebassets\\assets\\platforms\\xbox.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\profilePictures\\boy1.png",
+      "PackagePath": "staticwebassets\\assets\\profilePictures\\boy1.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\profilePictures\\boy2.png",
+      "PackagePath": "staticwebassets\\assets\\profilePictures\\boy2.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\profilePictures\\cat1.png",
+      "PackagePath": "staticwebassets\\assets\\profilePictures\\cat1.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\profilePictures\\cat2.png",
+      "PackagePath": "staticwebassets\\assets\\profilePictures\\cat2.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\profilePictures\\defaultProfile.png",
+      "PackagePath": "staticwebassets\\assets\\profilePictures\\defaultProfile.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\profilePictures\\devil.png",
+      "PackagePath": "staticwebassets\\assets\\profilePictures\\devil.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\profilePictures\\dog1.png",
+      "PackagePath": "staticwebassets\\assets\\profilePictures\\dog1.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\profilePictures\\dog2.png",
+      "PackagePath": "staticwebassets\\assets\\profilePictures\\dog2.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\profilePictures\\evilGood.png",
+      "PackagePath": "staticwebassets\\assets\\profilePictures\\evilGood.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\profilePictures\\frankenstein.png",
+      "PackagePath": "staticwebassets\\assets\\profilePictures\\frankenstein.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\profilePictures\\man1.png",
+      "PackagePath": "staticwebassets\\assets\\profilePictures\\man1.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\profilePictures\\man2.png",
+      "PackagePath": "staticwebassets\\assets\\profilePictures\\man2.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\profilePictures\\profilePictures.js",
+      "PackagePath": "staticwebassets\\assets\\profilePictures\\profilePictures.js"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\profilePictures\\woman1.png",
+      "PackagePath": "staticwebassets\\assets\\profilePictures\\woman1.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\assets\\profilePictures\\woman2.png",
+      "PackagePath": "staticwebassets\\assets\\profilePictures\\woman2.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Youri van Beuzekom\\OneDrive\\SoftwareDevelopment\\GameCatalogueV2\\GameCatalogueV2\\GameCatalogueV2\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GameCatalogueV2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GameCatalogueV2.props",
+      "PackagePath": "build\\GameCatalogueV2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GameCatalogueV2.props",
+      "PackagePath": "buildMultiTargeting\\GameCatalogueV2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GameCatalogueV2.props",
+      "PackagePath": "buildTransitive\\GameCatalogueV2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
