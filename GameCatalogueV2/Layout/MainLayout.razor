@@ -1,9 +1,28 @@
 ﻿@inherits LayoutComponentBase
+@implements IDisposable
 
-<main class="page-container dark-mode">
+
+<main class="page-container @Theme.CurrentTheme">
     <section class="section-outer-container">
         <section class="section-inner-container">
             @Body
         </section>
     </section>
 </main>
+
+@code {
+    [CascadingParameter(Name = "Theme")]
+    public ThemeService Theme { get; set; } = null!;
+    
+    
+    protected override void OnInitialized()
+    {
+        Theme.OnChange += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        Theme.OnChange -= StateHasChanged;
+    }
+}
+

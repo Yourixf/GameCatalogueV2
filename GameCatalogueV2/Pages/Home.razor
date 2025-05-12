@@ -4,6 +4,12 @@
 
 <h1>Home pagina</h1>
 
-<Button Class="my-button-class" OnClick="@(() => Console.WriteLine("Clicked!"))">
+<Button Class="my-button-class" OnClick="@Theme.ToggleTheme">
     Klik mij
 </Button>
+
+
+@code {
+    [CascadingParameter(Name = "Theme")]
+    public ThemeService Theme { get; set; } = null!;
+}

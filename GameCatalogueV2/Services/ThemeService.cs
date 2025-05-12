@@ -7,7 +7,11 @@ public class ThemeService {
     public event Action? OnChange;
 
     public void ToggleTheme() {
+        Console.WriteLine("AANGEROEPEN");
+        Console.WriteLine(CurrentTheme);
         CurrentTheme = CurrentTheme == "dark-mode" ? "light-mode" : "dark-mode";
+        Console.WriteLine(CurrentTheme);
+
         OnChange?.Invoke();
     }
 }
