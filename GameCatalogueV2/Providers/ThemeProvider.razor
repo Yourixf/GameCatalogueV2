@@ -1,0 +1,12 @@
+@using GameCatalogueV2.Services
+@inherits LayoutComponentBase
+
+<CascadingValue Value="Theme" Name="Theme">
+    @ChildContent
+</CascadingValue>
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+
+    public ThemeService Theme { get; set; } = new();
+}
