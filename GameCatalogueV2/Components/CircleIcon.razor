@@ -1,0 +1,12 @@
+@namespace GameCatalogueV2.Components
+
+<div @onclick="OnClick" class="circle-icon-main @Class" title="@Title">
+    <img class="circle-icon-picture" src=@IconPictureSource alt="@Class" />
+</div>
+
+@code {
+    [Parameter] public string Class { get; set; } = "";
+    [Parameter] public EventCallback OnClick { get; set; }
+    [Parameter] public string Title { get; set; } = "icon";
+    [Parameter] public string IconPictureSource { get; set; } = "";
+}

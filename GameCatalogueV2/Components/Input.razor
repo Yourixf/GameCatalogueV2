@@ -1,0 +1,24 @@
+@namespace GameCatalogueV2.Components
+
+<input
+    class="@Class"
+    id="@Id"
+    name="@Name"
+    disabled="@Disabled"
+    placeholder="@Disabled"
+    
+    checked="@Checked"
+/>
+
+
+@code {
+    [Parameter] public string Class { get; set; } = "";
+    [Parameter] public string Id { get; set; } = "";
+    [Parameter] public string Name { get; set; } = "";
+    [Parameter] public string Type { get; set; } = "";
+    [Parameter] public bool Disabled { get; set; } = false;
+    [Parameter] public bool Checked { get; set; } = false;
+
+
+
+}

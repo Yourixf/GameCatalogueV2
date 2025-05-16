@@ -1,4 +1,4 @@
-:deep(.button-main) {
+.button-main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,26 +10,26 @@
     border: none;
 }
 
-:deep(.button-content)::first-letter {
+.button-content::first-letter {
     text-transform: capitalize;
     color: var(--button-text-color-light);
 }
 
-:deep(.button-shadow) {
+.button-shadow {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-:deep(.button-main):hover{
+.button-main:hover{
     background-color: var(--button-hover-dark);
 }
 
-:deep(.button-main)::first-letter{
+.button-main::first-letter{
     text-transform: capitalize !important;
 }
 
 /* state three */
 @media all and (max-width: 758px) {
-    :deep(.button-main) {
+    .button-main {
         font-size: 18px;
         border-radius: 11px;
         height: 35px;
